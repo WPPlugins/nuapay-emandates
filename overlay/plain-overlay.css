@@ -1,0 +1,57 @@
+#np-overlay-modal {display: none;}
+.np-modal-scrollable {
+	z-index: 1060;
+	bottom: 0;
+    left: 0;
+    overflow: auto;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.np-modal {
+	z-index: 1050;
+    display: block;
+    left: 50%;
+    overflow: visible;
+    position: absolute;
+	margin: 40px 0 0 -300px;
+    width: 600px;
+    outline: medium none;
+}
+.np-modal-body {
+	overflow: auto;
+	max-height: none;
+	position: relative;
+	background-color: #f7f7f7;
+}
+.np-modal-body-content {
+	width: 560px;
+	height: auto;
+	min-height: 40px;
+	margin: 10px 20px;
+}
+.np-modal-bt-row {
+	width: 560px;
+	height: auto;
+	min-height: 40px;
+	margin: 10px 20px;
+	text-align: right;
+}
+.np-modal-footer {
+	width: 560px;
+	height: 20px;
+	margin: 0 20px;
+}
+.np-modal-backdrop {
+	z-index: 1050;
+	background: none repeat scroll 0 0 #1C1C1C;
+	-moz-opacity: 0.3;
+	opacity: .30;
+	filter: alpha(opacity = 30);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
